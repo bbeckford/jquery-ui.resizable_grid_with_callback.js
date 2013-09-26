@@ -62,8 +62,8 @@ $.ui.plugin.add("resizable", "gridWithCallback", {
 		}
 
 		if(o.snapCallback) {
-      o.snapCallback(event, that.ui());
-    }
+			o.snapCallback(event, that.ui());
+		}
 	}
 
 });
